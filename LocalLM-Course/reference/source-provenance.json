@@ -1,0 +1,27 @@
+{
+  "description": "Byte-for-byte copies of the course scripts at packaging.",
+  "date": "2026-10-16",
+  "sources": {
+    "check_training_config.py": "7cc132cce485aed34e9a20dae6884e22df73be62a6578e603e328ce1c53b6859",
+    "compare_checkpoints.py": "b8fd4748978b6ddc974dda3aaefadf8ec3dc30631239340347b1437fea92685d",
+    "evaluate.py": "07edc0b52a459994990b3845a5f45992a85ad5b3efc23de924fc22db347c05e3",
+    "generate_text.py": "6c2a2edc38e0f4a8a65581bc4de7e5ce36315a42bf95b06d139b94e2736acb8f",
+    "inference.py": "4d9d59d7317fd2db1a1e9e7ae51afa704ca604a2213646bfbcedef494e0d7bba",
+    "inspect_checkpoint.py": "1c891192e2739cb2bc12f0e96e02a65a65afeefdae0db4b55814e0f35f4e8628",
+    "inspect_model.py": "fc9436e4bc92506ce624098ee23fcb8663c5c5db8072c989b65b77e02bcbf8fb",
+    "inspect_tokenizer.py": "ef0bc008787efd6870ccc5098961041d34f0f6244182793d22fd56e9c8f53285",
+    "model.py": "7ef4aefff7adfebb026c2abeab705550ea61c7dab6272ee7ae13fdf184945aa4",
+    "package_model.py": "a72517f35fa2dff6fa900f62af2b7c870750fd66c3f35412dae3711b7f9e2182",
+    "prepare_data.py": "425760d01b7ebf67183c9e96adce1613470637f4c25d9443e0d212fe0f465bcb",
+    "prepare_tokens.py": "f0601aa4400a737f11ad59e401b8940944bbc39b104798cf049d7aea690fc083",
+    "review_samples.py": "ee0c8c08b5a35ab1bc86b7d0cd7f90b4de7d1e029d694c8f5f5b7831e1e98c7e",
+    "train.py": "24f20cf60e7fb0b6ef4a8b36f93e65239baa6a770b5a4b9ed8603f8570253e95",
+    "train_gpu.py": "e089ddcca059ecfa764d552af152544ba0fa432b0b9d7fdeacd19d6894256934",
+    "training_utils.py": "a83fb8ce655f3a128b77de31e6854c5a9b24975075a6e1bdd7f0ca8ec376aa68"
+  },
+  "configuration_policy": "Same baseline and check settings as the course; vendor-specific run names.",
+  "gpu_lessons": {
+    "nvidia": 14,
+    "amd": 16
+  }
+}

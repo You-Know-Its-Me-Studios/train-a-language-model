@@ -1,0 +1,32 @@
+{
+  "format": "uint16-le",
+  "vocab_size": 4096,
+  "end_of_text_id": 0,
+  "boundary_rule": "One end token after every story.",
+  "tokenizer_training_split": "train",
+  "tokenizers_version": "0.22.2",
+  "python_version": "3.14.8 (main, Oct  3 2026, 01:04:31) [Clang 22.1.3 ]",
+  "data_manifest_sha256": "5d111f6b52817bdc6c866cfedf90d2337009825ca8d470c1e0cef84781498329",
+  "tokenizer_sha256": "4642ad85ece8ac711d90bf94a2b95d77a8a4bd76748e5687e2be61cc93d5b624",
+  "preparation_script_sha256": "f0601aa4400a737f11ad59e401b8940944bbc39b104798cf049d7aea690fc083",
+  "splits": {
+    "train": {
+      "stories": 30496,
+      "tokens": 6080666,
+      "bytes": 12161332,
+      "sha256": "d809e167535d9e2c96c0ad6e30b61b5cff7cda5e917ed914c874a156fa187ae8"
+    },
+    "val": {
+      "stories": 5000,
+      "tokens": 977065,
+      "bytes": 1954130,
+      "sha256": "6bf4f04d5f74b4814197cace2552ddbb9811debb7415d61ad013f0a0492fb7a5"
+    },
+    "test": {
+      "stories": 2000,
+      "tokens": 398416,
+      "bytes": 796832,
+      "sha256": "edb16e7431e93e88b953cac963650bfce871db31bee44b0546738377db285796"
+    }
+  }
+}

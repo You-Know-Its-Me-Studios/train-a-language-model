@@ -1,0 +1,199 @@
+{
+  "format_version": 1,
+  "build_date": "2026-10-16",
+  "package": "LocalLM-Course",
+  "files": {
+    "README.md": {
+      "bytes": 5486,
+      "sha256": "1fba294b8dd2baef5bc2f152a2ebc36efcf0c93a77ef53b1a69fec4e56950ba6"
+    },
+    "configs/amd-baseline.json": {
+      "bytes": 650,
+      "sha256": "16c88b0d49d0796a5b04b8751f631817992a1f5868c345084131818df8652653"
+    },
+    "configs/amd-check.json": {
+      "bytes": 638,
+      "sha256": "17e7b1ca76d870ae44fd6e7a4f38fb50f0c72d50f0f37fdc82fce2667fcca051"
+    },
+    "configs/amd-recovery-resumed.json": {
+      "bytes": 649,
+      "sha256": "65d3d63537475ace19d4491922e0f876125c83e787cfdcf2fbcdb3f727fd28c1"
+    },
+    "configs/amd-recovery-stop.json": {
+      "bytes": 646,
+      "sha256": "8413c17310d207cb731409e8fa86a4b7d7eba6e719064298e7305c7e32ed331f"
+    },
+    "configs/cpu-baseline.json": {
+      "bytes": 650,
+      "sha256": "fab467498e11ff8af10a0e017846c735b7c7b46535af72ac3b85671755073938"
+    },
+    "configs/cpu-check.json": {
+      "bytes": 638,
+      "sha256": "707747b477771259a5ea21badf55ecdcde1a2b95c98756bc1b459c22a19523a4"
+    },
+    "configs/cpu-recovery-resumed.json": {
+      "bytes": 649,
+      "sha256": "3af7152bff7ec2c149ee78c56e9d3b3b4d39e32679fa4b625530cb01d135a4da"
+    },
+    "configs/cpu-recovery-stop.json": {
+      "bytes": 646,
+      "sha256": "ff38631932ee20eb09f85e65d865af7e4812e44d8254c0e5892942c44fa061bd"
+    },
+    "configs/nvidia-baseline.json": {
+      "bytes": 653,
+      "sha256": "478d4b8b46f86e44dbadb76751b2662c3a97d230be26de6056bd32514798c34d"
+    },
+    "configs/nvidia-check.json": {
+      "bytes": 641,
+      "sha256": "768811e7b30591c526527728c1ab3d5924c1d95c70a3647f2632f2d8519ae500"
+    },
+    "configs/nvidia-recovery-resumed.json": {
+      "bytes": 652,
+      "sha256": "6c2a7b8003dbb087f619c82c6f31c83e185fcb39eb087434f41850531966f3ab"
+    },
+    "configs/nvidia-recovery-stop.json": {
+      "bytes": 649,
+      "sha256": "0406735e44b9c91669c471ffc5df9a2fd562e7535382e394469fd9aab81f8f87"
+    },
+    "docs/AMD-QUICKSTART.md": {
+      "bytes": 8999,
+      "sha256": "67f012a48728d7c8b2af9bbcbd378ac3c520b50592cd02285adff73247029bf4"
+    },
+    "docs/CPU-QUICKSTART.md": {
+      "bytes": 4449,
+      "sha256": "373ae26e478ebb42c98e42eff24a8ae3ec472160b81a9fafd34b2d4699e37096"
+    },
+    "docs/DATA-SOURCE.md": {
+      "bytes": 2216,
+      "sha256": "e625e8ea1ccd5d29d80b9b56010dbd1d73278ec2b3376752595e7b5ed4666206"
+    },
+    "docs/EVALUATE-AND-EXPORT.md": {
+      "bytes": 4917,
+      "sha256": "a59a133076ee8894dab915310cbba7795a6184001049a7a1ddf39ab54bf1515d"
+    },
+    "docs/FILE-GUIDE.md": {
+      "bytes": 2675,
+      "sha256": "8b7a097c95ee31f40f2bb5bfcbd8c6e447c0a2baa57162d788ce21b8caeddfb8"
+    },
+    "docs/NVIDIA-QUICKSTART.md": {
+      "bytes": 3846,
+      "sha256": "8ac5865e44fb895aef1c1f1596435af05976ce19d2423e6f2c17d25fdbef4b58"
+    },
+    "docs/RECOVERY.md": {
+      "bytes": 3139,
+      "sha256": "b053c02b68afe213ad535d5681b642527409cd51eab38472223a758314ccc1c4"
+    },
+    "docs/VALIDATION.md": {
+      "bytes": 2792,
+      "sha256": "497c076d52c17f406db19221b9d8b8ffa863a7ca044133dafbf761c6bd2f179d"
+    },
+    "model-README.md": {
+      "bytes": 3864,
+      "sha256": "aeb8454da190c2de3d6b119334b076ba2fa54db848353c322e20378bee042460"
+    },
+    "reference/source-provenance.json": {
+      "bytes": 1751,
+      "sha256": "c97b932a92461a31548320a127a657647cdaab01fccf551870dc0f3a632e0212"
+    },
+    "reference/validation-summary.json": {
+      "bytes": 2787,
+      "sha256": "d8a11e827da39770ae70def8c842ec11856d0d9cd7eab95598ad17ae5600f6f2"
+    },
+    "requirements-amd.txt": {
+      "bytes": 328,
+      "sha256": "5b54fe682364a32b80b3c8da87a9d9d8de72d8df2619fe7e837c8800a2d1731c"
+    },
+    "requirements-cpu.txt": {
+      "bytes": 67,
+      "sha256": "b7c9f9051c9e64a86475b9ffbed193b202d692e73ee708df0833715477a44df4"
+    },
+    "requirements-model.txt": {
+      "bytes": 49,
+      "sha256": "9078a36579cb1385e634c9a1a8e89613d53449a6ce0ea27a80ae6ccff68815ad"
+    },
+    "requirements-nvidia.txt": {
+      "bytes": 71,
+      "sha256": "7b794b7637ee4ed070c4d9fd8555957c6f9ee5843ad45bad944283607ce8fac1"
+    },
+    "requirements-tokenizer.txt": {
+      "bytes": 55,
+      "sha256": "3eaa0c8de76acbc5ebc0315f2b9e86b290d292b782f8638ae467618753498b7f"
+    },
+    "scripts/check_training_config.py": {
+      "bytes": 4358,
+      "sha256": "7cc132cce485aed34e9a20dae6884e22df73be62a6578e603e328ce1c53b6859"
+    },
+    "scripts/compare_checkpoints.py": {
+      "bytes": 2439,
+      "sha256": "b8fd4748978b6ddc974dda3aaefadf8ec3dc30631239340347b1437fea92685d"
+    },
+    "scripts/evaluate.py": {
+      "bytes": 4657,
+      "sha256": "07edc0b52a459994990b3845a5f45992a85ad5b3efc23de924fc22db347c05e3"
+    },
+    "scripts/generate_text.py": {
+      "bytes": 5318,
+      "sha256": "6c2a2edc38e0f4a8a65581bc4de7e5ce36315a42bf95b06d139b94e2736acb8f"
+    },
+    "scripts/inference.py": {
+      "bytes": 5222,
+      "sha256": "4d9d59d7317fd2db1a1e9e7ae51afa704ca604a2213646bfbcedef494e0d7bba"
+    },
+    "scripts/inspect_checkpoint.py": {
+      "bytes": 2334,
+      "sha256": "1c891192e2739cb2bc12f0e96e02a65a65afeefdae0db4b55814e0f35f4e8628"
+    },
+    "scripts/inspect_model.py": {
+      "bytes": 3988,
+      "sha256": "fc9436e4bc92506ce624098ee23fcb8663c5c5db8072c989b65b77e02bcbf8fb"
+    },
+    "scripts/inspect_tokenizer.py": {
+      "bytes": 921,
+      "sha256": "ef0bc008787efd6870ccc5098961041d34f0f6244182793d22fd56e9c8f53285"
+    },
+    "scripts/model.py": {
+      "bytes": 6377,
+      "sha256": "7ef4aefff7adfebb026c2abeab705550ea61c7dab6272ee7ae13fdf184945aa4"
+    },
+    "scripts/package_model.py": {
+      "bytes": 5378,
+      "sha256": "a72517f35fa2dff6fa900f62af2b7c870750fd66c3f35412dae3711b7f9e2182"
+    },
+    "scripts/prepare_data.py": {
+      "bytes": 7134,
+      "sha256": "425760d01b7ebf67183c9e96adce1613470637f4c25d9443e0d212fe0f465bcb"
+    },
+    "scripts/prepare_tokens.py": {
+      "bytes": 6718,
+      "sha256": "f0601aa4400a737f11ad59e401b8940944bbc39b104798cf049d7aea690fc083"
+    },
+    "scripts/review_samples.py": {
+      "bytes": 2203,
+      "sha256": "ee0c8c08b5a35ab1bc86b7d0cd7f90b4de7d1e029d694c8f5f5b7831e1e98c7e"
+    },
+    "scripts/train.py": {
+      "bytes": 11269,
+      "sha256": "24f20cf60e7fb0b6ef4a8b36f93e65239baa6a770b5a4b9ed8603f8570253e95"
+    },
+    "scripts/train_gpu.py": {
+      "bytes": 13942,
+      "sha256": "e089ddcca059ecfa764d552af152544ba0fa432b0b9d7fdeacd19d6894256934"
+    },
+    "scripts/training_utils.py": {
+      "bytes": 5977,
+      "sha256": "a83fb8ce655f3a128b77de31e6854c5a9b24975075a6e1bdd7f0ca8ec376aa68"
+    },
+    "templates/run-notes.md": {
+      "bytes": 570,
+      "sha256": "31e88f79cbfd5b5ec3b114a2e3a8d2cde160b9cc65e4718bc406b5b64836eba1"
+    },
+    "templates/selection-notes.md": {
+      "bytes": 701,
+      "sha256": "42614c3405da6f946c503f809095a27debb10079e9042b20dcb538e2d965ec71"
+    },
+    "verify_download.py": {
+      "bytes": 1647,
+      "sha256": "7fd554d941fa7a107f28f11bbea64a908fd4c54188004ef4f2a1d399596ec3d5"
+    }
+  }
+}

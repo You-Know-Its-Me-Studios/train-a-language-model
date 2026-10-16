@@ -1,0 +1,42 @@
+TinyStories course reference data
+
+Upstream data: TinyStories, published by roneneldan on Hugging Face.
+Related paper: Ronen Eldan and Yuanzhi Li, "TinyStories: How Small Can
+Language Models Be and Still Speak Coherent English?"
+Paper: https://arxiv.org/abs/2305.07759
+Dataset: https://huggingface.co/datasets/roneneldan/TinyStories
+Revision: f54c09fd23315a6f9c86f9dc80f725de7d8f9c64
+
+Data license: Community Data License Agreement - Sharing, Version 1.0.
+SPDX identifier: CDLA-Sharing-1.0
+License: https://cdla.dev/sharing-1-0/
+See LICENSE-CDLA-Sharing-1.0.txt and the unchanged UPSTREAM-README.md.
+
+MODIFICATION NOTICE
+
+This archive contains a course subset and transformed representations of
+the upstream data. It is not the complete upstream training dataset.
+
+raw/train.txt contains only the first 25,000,000 upstream bytes.
+raw/valid.txt contains the complete upstream V2 GPT-4 validation file.
+
+The prepared JSONL files are changed representations. The course discards
+the incomplete training tail, requires valid UTF-8, rejects replacement
+characters, collapses whitespace, removes exact normalized duplicates,
+and selects validation/test stories using a seed-42 shuffle.
+
+The tokenized BIN files are changed representations of those prepared
+stories, encoded using the accompanying 4,096-token byte-level BPE
+tokenizer. An end-of-text token with ID 0 follows each story. The tokenizer
+was fitted only on the course training stories.
+
+The manifests identify the exact source files, transformation scripts,
+environments, counts, and hashes. Companion .NOTICE.txt files identify
+which transformations apply to individual data files.
+
+The data, including these changed data representations, is distributed
+under the unmodified CDLA-Sharing-1.0 terms. No course payment or code
+terms add restrictions to those data rights.
+
+Course preparation: You Know Its Me Studios course materials.
+The course source code and the third-party dataset are separate materials.

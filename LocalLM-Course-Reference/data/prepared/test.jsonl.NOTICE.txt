@@ -1,0 +1,8 @@
+Data file: test.jsonl
+MODIFIED DATA: normalized, deduplicated, selected course stories stored as JSONL.
+
+TinyStories, roneneldan/TinyStories; revision
+f54c09fd23315a6f9c86f9dc80f725de7d8f9c64.
+License: CDLA-Sharing-1.0; https://cdla.dev/sharing-1-0/
+See ../NOTICE.txt, ../UPSTREAM-README.md, and
+../LICENSE-CDLA-Sharing-1.0.txt for provenance and terms.

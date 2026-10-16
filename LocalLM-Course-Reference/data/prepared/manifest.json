@@ -1,0 +1,59 @@
+{
+  "dataset": "TinyStories V2 GPT4",
+  "source": "https://huggingface.co/datasets/roneneldan/TinyStories",
+  "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "license": "CDLA-Sharing-1.0",
+  "license_url": "https://cdla.dev/sharing-1-0/",
+  "sampling": "Training prefix; complete upstream validation file.",
+  "cleaning": "Strict UTF-8; reject replacement characters; collapse whitespace.",
+  "deduplication": "SHA256 of normalized text across all retained stories.",
+  "seed": 42,
+  "python_version": "3.14.8 (main, Oct  3 2026, 01:04:31) [Clang 22.1.3 ]",
+  "preparation_script_sha256": "425760d01b7ebf67183c9e96adce1613470637f4c25d9443e0d212fe0f465bcb",
+  "source_files": {
+    "train": {
+      "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/f54c09fd23315a6f9c86f9dc80f725de7d8f9c64/TinyStoriesV2-GPT4-train.txt",
+      "bytes": 25000000,
+      "sha256": "4f58be27e7c321948886b8d10bbfe270df428609a847569ecb6ce8ea7f472caa"
+    },
+    "valid": {
+      "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/f54c09fd23315a6f9c86f9dc80f725de7d8f9c64/TinyStoriesV2-GPT4-valid.txt",
+      "bytes": 22502601,
+      "sha256": "6874bae9a4c1a4e7edcf0e53b86c17817e9cf881fc75ff2368da457b80c0585d"
+    }
+  },
+  "audit": {
+    "train": {
+      "empty": 0,
+      "invalid_text": 0,
+      "duplicates": 0,
+      "discarded_tail_bytes": 570,
+      "kept": 30496
+    },
+    "held_out": {
+      "empty": 1,
+      "invalid_text": 0,
+      "duplicates": 0,
+      "discarded_tail_bytes": 0,
+      "kept": 27630
+    }
+  },
+  "unused_held_out_stories": 20630,
+  "splits": {
+    "train": {
+      "stories": 30496,
+      "bytes": 25052298,
+      "sha256": "f842b06e0ef02e44d1c9730b7ee3b71e03ae22883c99dd42771c709c7dc630e6"
+    },
+    "val": {
+      "stories": 5000,
+      "bytes": 4020376,
+      "sha256": "b00051269539ad437b1e89215d54673a22c56ac541134a75e49a488a08b29375"
+    },
+    "test": {
+      "stories": 2000,
+      "bytes": 1641512,
+      "sha256": "40b208b5c8cac3a1d558e0540a8a46f20b4cc8e647e6a0264abd332c9453dac7"
+    }
+  }
+}
